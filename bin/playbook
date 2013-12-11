@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+#require 'lana/all'
+#Lana::Application.new.run
