@@ -3,7 +3,12 @@ playbook
 
 [Ansible](www.ansibleworks.com) playbook manager - The **fast and easy** way to install playbooks.
 
-## Install
+## Features
+* Use existing playbooks and configure them to your need
+* No more copy & paste
+* Easy to maintain
+
+## Installation
 
 ```sh
 $ gem install playbook
