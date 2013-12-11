@@ -27,5 +27,8 @@ Either run the following command
 ```sh
 $ playbook install
 ```
-or add this line in your `Vagrantfile` 
+or add this line in your `Vagrantfile` before the ansible provision
+```ruby
+  config.vm.provision "shell", inline: "echo run playbook"
+```
 
