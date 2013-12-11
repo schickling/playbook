@@ -11,7 +11,7 @@ $ gem install playbook
 
 ## Usage
 
-A [simple usage example can be found here](https://github.com/schickling/playbook-example).
+A simple usage example can be found [here](https://github.com/schickling/playbook-example).
 
 #### 1. Create your playbook file
 ```sh
