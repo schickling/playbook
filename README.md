@@ -1,7 +1,7 @@
 playbook
 ========
 
-Ansible playbook manager - The **fast and easy** way to install playbooks.
+[Ansible](www.ansibleworks.com) playbook manager - The **fast and easy** way to install playbooks.
 
 ## Install
 
