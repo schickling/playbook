@@ -39,3 +39,6 @@ or add this line in your `Vagrantfile` before the ansible provision
 config.vm.provision "shell", inline: "echo run playbook"
 ```
 
+## Write and publish your own playbook
+
+
