@@ -1,8 +1,8 @@
 Gem::Specification.new do |gem|
     gem.name          = "playbook"
     gem.version       = "0.0.0"
-    gem.summary       = "playbook"
-    gem.description   = "playbook is awesome"
+    gem.summary       = "Ansible playbook manager"
+    gem.description   = "Ansible playbook manager - The simple way to install playbooks"
     gem.authors       = ["Johannes Schickling"]
     gem.email         = "schickling.j@gmail.com"
     gem.homepage      = "https://github.com/schickling/playbook"
