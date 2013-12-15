@@ -25,8 +25,8 @@ $ playbook init
 
 #### 2. Specify your playbooks in `playbooks.yml`
 ```yml
-- schickling/nginx
-- schickling/php54
+- schickling/nginx-playbook
+- schickling/php54-playbook
 ```
 
 #### 3. Install the playbooks
