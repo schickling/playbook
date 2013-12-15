@@ -12,11 +12,11 @@ class Install
 
         playbooks = YAML.load_file("playbooks.yml")
 
+        FileUtils.rm_rf "playbooks"
         FileUtils.mkdir_p "playbooks"
         Dir.chdir "playbooks"
 
         playbooks.each do |playbook|
-            FileUtils.rm_rf playbook.split('/').first
             git_url = "https://github.com/#{playbook}.git"
             repo = Git.clone(git_url, playbook)
         end
