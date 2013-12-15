@@ -34,6 +34,15 @@ $ playbook init
 $ playbook install
 ```
 
+#### 4. Load the playbooks
+```yml
+---
+- hosts: all
+  tasks:
+    - include: playbooks/schickling/nginx-playbook/nginx.yml
+    - include: playbooks/schickling/php54-playbook/php54.yml
+```
+
 ## Write and publish your own playbook
 
 *TODO*
