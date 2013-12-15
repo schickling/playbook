@@ -3,4 +3,4 @@ rvm:
     - "1.9.2"
     - "2.0.0"
 script:
-    cucumber
+    bundle exec cucumber
