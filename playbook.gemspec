@@ -15,4 +15,5 @@ Gem::Specification.new do |gem|
     gem.add_dependency "git", ">= 1.2.6"
 
     gem.add_development_dependency "rspec"
+    gem.add_development_dependency "cucumber"
 end
