@@ -1,10 +1,12 @@
 #!/usr/bin/env ruby
 require 'playbook/init'
+require 'playbook/install'
 
 case ARGV.first
 when 'init'
     Init.run
 when 'install'
+    Install.run
 else
     puts "Available commands: init, install"
 end
