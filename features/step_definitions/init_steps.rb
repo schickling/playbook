@@ -1,7 +1,6 @@
 Before do
     FileUtils.mkdir_p "tmp"
     Dir.chdir "tmp"
-    puts "ok"
 end
 
 After do
@@ -16,7 +15,7 @@ Given "I'm in an empty directory" do
 end
 
 When "I run \"playbook init\"" do
-    `playbook init`
+    `bundle exec playbook init`
 end
 
 Then "a fresh \"playbooks.yml\" file should be created" do
