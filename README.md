@@ -1,4 +1,4 @@
-playbook
+playbook [![Build Status](https://travis-ci.org/schickling/playbook.png?branch=master)](https://travis-ci.org/schickling/playbook)
 ========
 
 [Ansible](www.ansibleworks.com) playbook manager - The **fast and easy** way to install playbooks.
