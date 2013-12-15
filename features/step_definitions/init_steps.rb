@@ -1,17 +1,5 @@
-Before do
-    FileUtils.mkdir_p "tmp"
-    Dir.chdir "tmp"
-end
-
-After do
-    Dir.chdir ".."
-    Dir.chdir ".."
-    FileUtils.rm_rf "tmp"
-end
-
 Given "I'm in an empty directory" do
-    FileUtils.mkdir_p "empty"
-    Dir.chdir "empty"
+    # nothing
 end
 
 When "I run \"playbook init\"" do

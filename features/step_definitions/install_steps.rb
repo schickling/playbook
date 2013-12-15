@@ -1,0 +1,20 @@
+Given "there is no \"playbooks.yml\" in the current directory" do
+    # nothing
+end
+
+When "I run \"playbook install\"" do
+    `bundle exec playbook install`
+end
+
+Then "a error should occour" do
+    
+end
+
+Given "there is a valid \"playbooks.yml\" in the current directory" do
+    playbooks_file = "#{File.dirname(__FILE__)}/../support/playbooks.yml"
+    FileUtils.cp playbooks_file, Dir.pwd
+end
+
+Then "the playbooks should be fetched" do
+
+end

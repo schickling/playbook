@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby
 require 'playbook/init'
 
-if ARGV.first == 'init'
+case ARGV.first
+when 'init'
     Init.run
+when 'install'
+else
+    puts "Available commands: init, install"
 end
