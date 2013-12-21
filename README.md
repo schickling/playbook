@@ -50,6 +50,7 @@ $ playbook install
 ## Coming soon...
 * Version support
 * Templateing (vhosts, ...)
+* Hosts
 * Dependencies
   * Ordered Dependencies
 
